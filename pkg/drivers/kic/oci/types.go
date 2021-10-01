@@ -34,7 +34,7 @@ const (
 	// ProfileLabelKey is applied to any container or volume created by a specific minikube profile name.minikube.sigs.k8s.io=PROFILE_NAME
 	ProfileLabelKey = "name.minikube.sigs.k8s.io"
 	// NodeLabelKey is applied to each volume so it can be referred to by name
-	NodeLabelKey = "mode.minikube.sigs.k8s.io"
+	NodeLabelKey = "node.minikube.sigs.k8s.io"
 	// NodeRoleKey is used to identify if it is control plane or worker
 	nodeRoleLabelKey = "role.minikube.sigs.k8s.io"
 	// CreatedByLabelKey is applied to any container/volume that is created by minikube created_by.minikube.sigs.k8s.io=true
